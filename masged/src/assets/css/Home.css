@@ -1,0 +1,140 @@
+@font-face {
+  font-family: iransans;
+  src: url(../Font/IRANSansWeb.ttf);
+}
+@font-face {
+  font-family: Kodak;
+  src: url(../Font/Koodak.ttf);
+}
+#Carousel {
+  position: relative;
+  top: 15vh;
+  left: 4vw;
+  width: 85vw;
+  height: 90vh;
+  object-fit: cover;
+}
+.ceremony {
+  position: relative;
+  direction: rtl;
+  top: 17vh;
+  font-family: iransans;
+  left: 7vw;
+}
+.cerimage {
+  object-fit: cover;
+  width: 350px;
+  position: relative;
+  top: 20vh;
+  left: 8vw;
+}
+.news {
+  position: relative;
+  direction: rtl;
+  top: 22vh;
+  font-family: iransans;
+  left: 7vw;
+}
+.NewsOne {
+  position: relative;
+  top: 12vw;
+  left: 18vh;
+  object-fit: cover;
+  width: 540px;
+  height: 300px;
+}
+.Prayer-Text {
+  position: relative;
+  font-family: iransans;
+  direction: rtl;
+  top: 27vh;
+  left: 7vw;
+}
+
+.Prayer-div {
+  position: relative;
+  direction: rtl;
+  display: flex; /* Enable flexbox */
+  align-items: center;
+  background-color: #f4ce14;
+  border-radius: 25px;
+  height: 9vh;
+  top: 28vh;
+  left: 8vw;
+  justify-content: space-around; /* Distribute space around the h3 elements */
+}
+
+.Prayer-h3 {
+  position: relative;
+  margin: 0;
+  font-family: iransans;
+}
+.Speack{
+    width: 1092px;
+    background: #ececec;
+    border-radius: 15px;
+    height: 420px;
+    position: relative;
+    left: 110px;
+    top: 30vh;
+}
+#map-text{
+  position: relative;
+  font-family: iransans;
+  top: 29vh;
+  direction: rtl;
+  left: 8vw;
+}
+#map{
+  position: relative;
+  top: 30vh;
+  left: 9vw;
+  object-fit: cover;
+  width: 80vw;
+  border-radius: 15px;
+}
+.Card-Text{
+  font-family: iransans;
+  direction: rtl;
+}
+.Card-Button{
+  font-family: iransans !important;
+  position: relative;
+  left: 80%;
+  background-color: #233b6e !important;
+
+}
+.Card-Button:hover{
+  background-color: #f4ce14 !important;
+  color: black !important;
+}
+@media only screen and (max-width: 500px) {
+  .cerimage {
+    left: 9vw;
+    margin-bottom: 2vh;
+    width: 400px;
+  }
+  .Prayer-Text {
+    position: relative;
+    left: 0px !important;
+  }
+  #map-text{
+    position: relative;
+    left: 0px !important;
+  }
+  .news{
+    position: relative;
+    left: 0;
+  }
+  .NewsOne {
+    width: 80vw !important;
+    position: relative !important;
+    left: 45px !important;
+    top: 140px !important;
+  }
+  .Prayer-div{
+    width: 400px;
+    height: 100px;
+    flex-direction: column;
+  }
+}

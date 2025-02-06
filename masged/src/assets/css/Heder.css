@@ -1,0 +1,103 @@
+@font-face {
+  font-family: iransans;
+  src: url(../Font/IRANSansWeb/IRANSansWeb.ttf);
+}
+@font-face {
+  font-family: Kodak;
+  src: url(../Font/koodak/Koodak.ttf);
+}
+@font-face {
+  font-family: shabnam;
+  src: url(../Font/shabnam/shabnam.ttf);
+}
+#clock {
+  font-family: iransans;
+  font-size: 20px;
+  color: #fff;
+  margin-right: 10px;
+  position: relative;
+  left: 5vw;
+  top: 4vh;
+}
+#title {
+  font-family: shabnam;
+  color: #fff;
+  position: relative;
+  bottom: 4vh;
+  text-align: center;
+  font-size: 35px;
+}
+.nav-link {
+  font-family: iransans;
+  margin-left: 20px;
+  /* flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  justify-content: space-between; */
+  white-space: nowrap !important;
+  margin-left: 11px;
+}
+#navb {
+  position: relative;
+  bottom: 95px;
+}
+.nav-link.active {
+  background-color: #f3d516; /* Yellow background for active link */
+  border-radius: 25px;
+}
+.nav-link:hover,
+.nav-link:visited,
+.nav-link::after,
+.nav-link::before {
+  border-radius: 25px;
+  transition: 0.7s;
+}
+
+.nav-link:hover {
+  background-color: #f3d516 !important;
+  border-radius: 25px;
+}
+#search {
+  font-family: iransans !important;
+  direction: rtl;
+  width: 15vw;
+}
+#Emam-jpg {
+  object-fit: cover;
+  width: 90px;
+  position: relative;
+  left: 90%;
+  bottom: 15vh;
+  border-radius: 25px;
+}
+#Dark-Light {
+  position: relative;
+  top: 6px;
+  right: 20px;
+}
+#Dark-Light:hover {
+  background-color: #f3d516 !important;
+  transition: 0.7s;
+}
+@media only screen and (max-width: 500px) {
+  #title {
+    font-size: 25px;
+    align-items: center;
+    right: 2vw;
+  }
+  #search {
+    width: 50vw;
+  }
+  #clock {
+    top: 8vh;
+  }
+  .nav-link {
+    direction: rtl;
+  }
+  #navb {
+    position: relative;
+    top: 13px;
+  }
+  #Emam-jpg {
+    display: none;
+  }
+}
